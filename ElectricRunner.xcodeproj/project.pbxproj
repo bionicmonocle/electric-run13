@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660951E6183708310073EB2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660951E5183708310073EB2D /* Foundation.framework */; };
+		660951E8183708310073EB2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660951E7183708310073EB2D /* CoreGraphics.framework */; };
+		660951EA183708310073EB2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660951E9183708310073EB2D /* UIKit.framework */; };
+		660951EC183708310073EB2D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660951EB183708310073EB2D /* SpriteKit.framework */; };
+		660951F2183708310073EB2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 660951F0183708310073EB2D /* InfoPlist.strings */; };
+		660951F4183708310073EB2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660951F3183708310073EB2D /* main.m */; };
+		660951F8183708310073EB2D /* ERAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660951F7183708310073EB2D /* ERAppDelegate.m */; };
+		660951FB183708310073EB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660951F9183708310073EB2D /* Main.storyboard */; };
+		660951FE183708310073EB2D /* ERViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660951FD183708310073EB2D /* ERViewController.m */; };
+		66095201183708310073EB2D /* ERMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 66095200183708310073EB2D /* ERMyScene.m */; };
+		66095203183708310073EB2D /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 66095202183708310073EB2D /* Spaceship.png */; };
+		66095205183708310073EB2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66095204183708310073EB2D /* Images.xcassets */; };
+		6609520C183708310073EB2D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6609520B183708310073EB2D /* XCTest.framework */; };
+		6609520D183708310073EB2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660951E5183708310073EB2D /* Foundation.framework */; };
+		6609520E183708310073EB2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660951E9183708310073EB2D /* UIKit.framework */; };
+		66095216183708320073EB2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66095214183708320073EB2D /* InfoPlist.strings */; };
+		66095218183708320073EB2D /* ElectricRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66095217183708320073EB2D /* ElectricRunnerTests.m */; };
+		66095223183709170073EB2D /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 66095221183709170073EB2D /* MyParticle.sks */; };
+		66095224183709170073EB2D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 66095222183709170073EB2D /* spark.png */; };
+		6609522618370FAB0073EB2D /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6609522518370FAB0073EB2D /* background@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6609520F183708320073EB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660951DA183708310073EB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660951E1183708310073EB2D;
+			remoteInfo = ElectricRunner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660951E2183708310073EB2D /* ElectricRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		660951E5183708310073EB2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		660951E7183708310073EB2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		660951E9183708310073EB2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		660951EB183708310073EB2D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		660951EF183708310073EB2D /* ElectricRunner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElectricRunner-Info.plist"; sourceTree = "<group>"; };
+		660951F1183708310073EB2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		660951F3183708310073EB2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		660951F5183708310073EB2D /* ElectricRunner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ElectricRunner-Prefix.pch"; sourceTree = "<group>"; };
+		660951F6183708310073EB2D /* ERAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERAppDelegate.h; sourceTree = "<group>"; };
+		660951F7183708310073EB2D /* ERAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERAppDelegate.m; sourceTree = "<group>"; };
+		660951FA183708310073EB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		660951FC183708310073EB2D /* ERViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERViewController.h; sourceTree = "<group>"; };
+		660951FD183708310073EB2D /* ERViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERViewController.m; sourceTree = "<group>"; };
+		660951FF183708310073EB2D /* ERMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERMyScene.h; sourceTree = "<group>"; };
+		66095200183708310073EB2D /* ERMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERMyScene.m; sourceTree = "<group>"; };
+		66095202183708310073EB2D /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		66095204183708310073EB2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6609520A183708310073EB2D /* ElectricRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6609520B183708310073EB2D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66095213183708320073EB2D /* ElectricRunnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElectricRunnerTests-Info.plist"; sourceTree = "<group>"; };
+		66095215183708320073EB2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66095217183708320073EB2D /* ElectricRunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricRunnerTests.m; sourceTree = "<group>"; };
+		66095221183709170073EB2D /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		66095222183709170073EB2D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		6609522518370FAB0073EB2D /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660951DF183708310073EB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660951E8183708310073EB2D /* CoreGraphics.framework in Frameworks */,
+				660951EA183708310073EB2D /* UIKit.framework in Frameworks */,
+				660951EC183708310073EB2D /* SpriteKit.framework in Frameworks */,
+				660951E6183708310073EB2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66095207183708310073EB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6609520C183708310073EB2D /* XCTest.framework in Frameworks */,
+				6609520E183708310073EB2D /* UIKit.framework in Frameworks */,
+				6609520D183708310073EB2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660951D9183708310073EB2D = {
+			isa = PBXGroup;
+			children = (
+				660951ED183708310073EB2D /* ElectricRunner */,
+				66095211183708320073EB2D /* ElectricRunnerTests */,
+				660951E4183708310073EB2D /* Frameworks */,
+				660951E3183708310073EB2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660951E3183708310073EB2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660951E2183708310073EB2D /* ElectricRunner.app */,
+				6609520A183708310073EB2D /* ElectricRunnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660951E4183708310073EB2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				660951E5183708310073EB2D /* Foundation.framework */,
+				660951E7183708310073EB2D /* CoreGraphics.framework */,
+				660951E9183708310073EB2D /* UIKit.framework */,
+				660951EB183708310073EB2D /* SpriteKit.framework */,
+				6609520B183708310073EB2D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		660951ED183708310073EB2D /* ElectricRunner */ = {
+			isa = PBXGroup;
+			children = (
+				6609522518370FAB0073EB2D /* background@2x.png */,
+				660951F6183708310073EB2D /* ERAppDelegate.h */,
+				660951F7183708310073EB2D /* ERAppDelegate.m */,
+				660951F9183708310073EB2D /* Main.storyboard */,
+				66095221183709170073EB2D /* MyParticle.sks */,
+				66095222183709170073EB2D /* spark.png */,
+				660951FC183708310073EB2D /* ERViewController.h */,
+				660951FD183708310073EB2D /* ERViewController.m */,
+				660951FF183708310073EB2D /* ERMyScene.h */,
+				66095200183708310073EB2D /* ERMyScene.m */,
+				66095202183708310073EB2D /* Spaceship.png */,
+				66095204183708310073EB2D /* Images.xcassets */,
+				660951EE183708310073EB2D /* Supporting Files */,
+			);
+			path = ElectricRunner;
+			sourceTree = "<group>";
+		};
+		660951EE183708310073EB2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660951EF183708310073EB2D /* ElectricRunner-Info.plist */,
+				660951F0183708310073EB2D /* InfoPlist.strings */,
+				660951F3183708310073EB2D /* main.m */,
+				660951F5183708310073EB2D /* ElectricRunner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66095211183708320073EB2D /* ElectricRunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				66095217183708320073EB2D /* ElectricRunnerTests.m */,
+				66095212183708320073EB2D /* Supporting Files */,
+			);
+			path = ElectricRunnerTests;
+			sourceTree = "<group>";
+		};
+		66095212183708320073EB2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66095213183708320073EB2D /* ElectricRunnerTests-Info.plist */,
+				66095214183708320073EB2D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660951E1183708310073EB2D /* ElectricRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6609521B183708320073EB2D /* Build configuration list for PBXNativeTarget "ElectricRunner" */;
+			buildPhases = (
+				660951DE183708310073EB2D /* Sources */,
+				660951DF183708310073EB2D /* Frameworks */,
+				660951E0183708310073EB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectricRunner;
+			productName = ElectricRunner;
+			productReference = 660951E2183708310073EB2D /* ElectricRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66095209183708310073EB2D /* ElectricRunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6609521E183708320073EB2D /* Build configuration list for PBXNativeTarget "ElectricRunnerTests" */;
+			buildPhases = (
+				66095206183708310073EB2D /* Sources */,
+				66095207183708310073EB2D /* Frameworks */,
+				66095208183708310073EB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66095210183708320073EB2D /* PBXTargetDependency */,
+			);
+			name = ElectricRunnerTests;
+			productName = ElectricRunnerTests;
+			productReference = 6609520A183708310073EB2D /* ElectricRunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660951DA183708310073EB2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ER;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Bionic Monocle Pty Ltd";
+				TargetAttributes = {
+					66095209183708310073EB2D = {
+						TestTargetID = 660951E1183708310073EB2D;
+					};
+				};
+			};
+			buildConfigurationList = 660951DD183708310073EB2D /* Build configuration list for PBXProject "ElectricRunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660951D9183708310073EB2D;
+			productRefGroup = 660951E3183708310073EB2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660951E1183708310073EB2D /* ElectricRunner */,
+				66095209183708310073EB2D /* ElectricRunnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660951E0183708310073EB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660951F2183708310073EB2D /* InfoPlist.strings in Resources */,
+				66095224183709170073EB2D /* spark.png in Resources */,
+				6609522618370FAB0073EB2D /* background@2x.png in Resources */,
+				66095205183708310073EB2D /* Images.xcassets in Resources */,
+				66095203183708310073EB2D /* Spaceship.png in Resources */,
+				660951FB183708310073EB2D /* Main.storyboard in Resources */,
+				66095223183709170073EB2D /* MyParticle.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66095208183708310073EB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66095216183708320073EB2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660951DE183708310073EB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660951FE183708310073EB2D /* ERViewController.m in Sources */,
+				66095201183708310073EB2D /* ERMyScene.m in Sources */,
+				660951F4183708310073EB2D /* main.m in Sources */,
+				660951F8183708310073EB2D /* ERAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66095206183708310073EB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66095218183708320073EB2D /* ElectricRunnerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66095210183708320073EB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660951E1183708310073EB2D /* ElectricRunner */;
+			targetProxy = 6609520F183708320073EB2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		660951F0183708310073EB2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660951F1183708310073EB2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		660951F9183708310073EB2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660951FA183708310073EB2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66095214183708320073EB2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66095215183708320073EB2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66095219183708320073EB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6609521A183708320073EB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6609521C183708320073EB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElectricRunner/ElectricRunner-Prefix.pch";
+				INFOPLIST_FILE = "ElectricRunner/ElectricRunner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6609521D183708320073EB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElectricRunner/ElectricRunner-Prefix.pch";
+				INFOPLIST_FILE = "ElectricRunner/ElectricRunner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6609521F183708320073EB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElectricRunner.app/ElectricRunner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElectricRunner/ElectricRunner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ElectricRunnerTests/ElectricRunnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66095220183708320073EB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElectricRunner.app/ElectricRunner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElectricRunner/ElectricRunner-Prefix.pch";
+				INFOPLIST_FILE = "ElectricRunnerTests/ElectricRunnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660951DD183708310073EB2D /* Build configuration list for PBXProject "ElectricRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66095219183708320073EB2D /* Debug */,
+				6609521A183708320073EB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6609521B183708320073EB2D /* Build configuration list for PBXNativeTarget "ElectricRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6609521C183708320073EB2D /* Debug */,
+				6609521D183708320073EB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6609521E183708320073EB2D /* Build configuration list for PBXNativeTarget "ElectricRunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6609521F183708320073EB2D /* Debug */,
+				66095220183708320073EB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660951DA183708310073EB2D /* Project object */;
+}
